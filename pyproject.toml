@@ -13,5 +13,5 @@ Repository = "https://github.com/hanzoai/studio_TensorRT"
 
 [tool.comfy]
 PublisherId = "comfy"
-DisplayName = "Hanzo Studio_TensorRT"
+DisplayName = "HanzoStudio_TensorRT"
 Icon = ""

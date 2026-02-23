@@ -33,7 +33,7 @@ You can also manually install them by git cloning the repo to your Hanzo Studio/
 ```
 cd custom_nodes
 git clone https://github.com/hanzoai/studio_TensorRT
-cd Hanzo Studio_TensorRT
+cd HanzoStudio_TensorRT
 pip install -r requirements.txt
 ```
 
