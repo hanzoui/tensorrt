@@ -1,4 +1,4 @@
-# TensorRT Node for ComfyUI
+# TensorRT Node for Hanzo Studio
 
 This node enables the best performance on NVIDIA RTX™ Graphics Cards
  (GPUs) for Stable Diffusion by leveraging NVIDIA TensorRT.
@@ -25,15 +25,15 @@ Requirements:
 
 ## Installing
 
-The recommended way to install these nodes is to use the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager)
-to easily install them to your ComfyUI instance.
+The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager)
+to easily install them to your Hanzo Studio instance.
 
-You can also manually install them by git cloning the repo to your ComfyUI/custom_nodes folder and installing the requirements like:
+You can also manually install them by git cloning the repo to your Hanzo Studio/custom_nodes folder and installing the requirements like:
 
 ```
 cd custom_nodes
-git clone https://github.com/comfyanonymous/ComfyUI_TensorRT
-cd ComfyUI_TensorRT
+git clone https://github.com/hanzoai/studio_TensorRT
+cd Hanzo Studio_TensorRT
 pip install -r requirements.txt
 ```
 
@@ -64,13 +64,13 @@ range, the more VRAM will be consumed.
 ## Instructions
 
 You can find different workflows in the [workflows](workflows) folder of this repo.
-These .json files can be loaded in ComfyUI.
+These .json files can be loaded in Hanzo Studio.
 
 ### Building A TensorRT Engine From a Checkpoint
 
 1.  Add a Load Checkpoint Node
 2.  Add either a Static Model TensorRT Conversion node or a Dynamic
-    Model TensorRT Conversion node to ComfyUI
+    Model TensorRT Conversion node to Hanzo Studio
 3.  ![](readme_images/image3.png)
 4.  Connect the Load Checkpoint Model output to the TensorRT Conversion
     Node Model input.
@@ -109,13 +109,13 @@ TensorRT Engines are loaded using the TensorRT Loader node.
 
 ## Common Issues/Limitations
 
-ComfyUI TensorRT engines are not yet compatible with ControlNets or
+Hanzo Studio TensorRT engines are not yet compatible with ControlNets or
 LoRAs. Compatibility will be enabled in a future update.
 
 1.  Add a TensorRT Loader node
-2.  Note, if a TensorRT Engine has been created during a ComfyUI
+2.  Note, if a TensorRT Engine has been created during a Hanzo Studio
     session, it will not show up in the TensorRT Loader until the
-    ComfyUI interface has been refreshed (F5 to refresh browser).
+    Hanzo Studio interface has been refreshed (F5 to refresh browser).
 3.  ![](readme_images/image6.png)
 4.  Select a TensorRT Engine from the unet_name dropdown
 5.  Dynamic Engines will use a filename format of:

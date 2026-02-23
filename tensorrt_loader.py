@@ -1,4 +1,4 @@
-#Put this in the custom_nodes folder, put your tensorrt engine files in ComfyUI/models/tensorrt/ (you will have to create the directory)
+#Put this in the custom_nodes folder, put your tensorrt engine files in Hanzo Studio/models/tensorrt/ (you will have to create the directory)
 
 import torch
 import os

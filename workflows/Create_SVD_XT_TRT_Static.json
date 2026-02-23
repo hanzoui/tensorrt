@@ -135,7 +135,7 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "ComfyUI_00075_.png",
+        "Hanzo Studio_00075_.png",
         "image"
       ]
     },
@@ -277,7 +277,7 @@
         "Node name for S&R": "SaveAnimatedWEBP"
       },
       "widgets_values": [
-        "ComfyUI",
+        "Hanzo Studio",
         10,
         false,
         85,

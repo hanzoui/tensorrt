@@ -375,7 +375,7 @@ class DYNAMIC_TRT_MODEL_CONVERSION(TRT_MODEL_CONVERSION_BASE):
         return {
             "required": {
                 "model": ("MODEL",),
-                "filename_prefix": ("STRING", {"default": "tensorrt/ComfyUI_DYN"}),
+                "filename_prefix": ("STRING", {"default": "tensorrt/Hanzo Studio_DYN"}),
                 "batch_size_min": (
                     "INT",
                     {
@@ -543,7 +543,7 @@ class STATIC_TRT_MODEL_CONVERSION(TRT_MODEL_CONVERSION_BASE):
         return {
             "required": {
                 "model": ("MODEL",),
-                "filename_prefix": ("STRING", {"default": "tensorrt/ComfyUI_STAT"}),
+                "filename_prefix": ("STRING", {"default": "tensorrt/Hanzo Studio_STAT"}),
                 "batch_size_opt": (
                     "INT",
                     {
