@@ -25,7 +25,7 @@ Requirements:
 
 ## Installing
 
-The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/Hanzo Manager)
+The recommended way to install these nodes is to use the [Hanzo Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 to easily install them to your Hanzo Studio instance.
 
 You can also manually install them by git cloning the repo to your HanzoStudio/custom_nodes folder and installing the requirements like:
